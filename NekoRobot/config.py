@@ -31,7 +31,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://tluamgmb:wzHC-TipPrkuPGtbqHUpVNeGpqicuQCV@castor.db.elephantsql.com/tluamgmb"  # needed for any database modules
     DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
-    REDIS_URL = ""
+    REDIS_URL = "redis-cli -u redis://default:RvARXR5mLNvJ2zyzaI7mvW2FhjfQBP4r@redis-12774.c11.us-east-1-2.ec2.cloud.redislabs.com:12774"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -111,6 +111,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://tluamgmb:wzHC-TipPrkuPGtbqHUpVNeGpqicuQCV@castor.db.elephantsql.com/tluamgmb"  # needed for any database modules
     DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
+    REDIS_URL = "redis-cli -u redis://default:RvARXR5mLNvJ2zyzaI7mvW2FhjfQBP4r@redis-12774.c11.us-east-1-2.ec2.cloud.redislabs.com:12774"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
