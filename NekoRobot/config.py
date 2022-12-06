@@ -14,23 +14,23 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "123458494"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 9296751  # integer value, dont use ""
+    API_HASH = "a18338efb356310494a97c2c25c88202"
+    TOKEN = "5633083490:AAEMLupVoX7drsCSVZ_V_0aNmzrZ5QFcfqQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = "12345abc6"
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    OWNER_ID = 1314668058  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "l0rd_lusifer"
+    SUPPORT_CHAT = "L3GACYNetwork"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1001628925434
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1001628925434
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    DB_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://tluamgmb:wzHC-TipPrkuPGtbqHUpVNeGpqicuQCV@castor.db.elephantsql.com/tluamgmb"  # needed for any database modules
+    DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
     REDIS_URL = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -95,22 +95,22 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = "12345abcdefg23459"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1732814103  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Awesome_Prince"
-    SUPPORT_CHAT = "Besties_XD"  # Your own group for support, do not add the @
+    API_ID = 9296751  # integer value, dont use ""
+    API_HASH = "a18338efb356310494a97c2c25c88202"
+    TOKEN = "5633083490:AAEMLupVoX7drsCSVZ_V_0aNmzrZ5QFcfqQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1314668058  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "l0rd_lusifer"
+    SUPPORT_CHAT = "L3GACYNetwork"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001739802989
+        -1001628925434
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001739802989
+        -1001628925434
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    DB_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://tluamgmb:wzHC-TipPrkuPGtbqHUpVNeGpqicuQCV@castor.db.elephantsql.com/tluamgmb"  # needed for any database modules
+    DB_URL = "postgresql://postgres:IE2wA6q9yKhLpaqeJ0RT@containers-us-west-17.railway.app:5819/railway"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
